@@ -1,0 +1,443 @@
+*:not(i) {
+    padding: 0;
+    margin: 0;
+    /* background-color: #fafafa; */
+    font-family: "Inter", serif;
+}
+
+body {
+    /* width: 100%; */
+    background-color: #fafafa !important;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo span {
+    background: #39DB4A;
+    padding: 2px 4px;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 4px;
+    margin-right: -3px;
+}
+
+nav ul li {
+    padding: 0px 30px;
+    list-style-type: none;
+}
+
+nav ul li .active,
+nav ul li a:hover , .mobile-nav .active , .mobile-nav a:hover {
+    color: #39DB4A;
+}
+
+nav ul li a , .mobile-nav a{
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-green {
+    padding: 10px 20px;
+    background-color: #39DB4A;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.8s;
+}
+.btn-green:hover{
+    border: 2px solid #39DB4A;
+    color: #39DB4A;
+    background-color: transparent;
+}
+nav #hide{
+    display: none;
+}
+.mobile-nav{
+    padding: 10px 30px;
+    position: relative;
+    border-bottom: 1px solid #4444440e;
+    display: none;
+}
+.mobile-nav a{
+    border-bottom: 1px solid #44444423;
+    padding: 10px 0px 5px 0px !important;
+}
+.hero {
+    background-color: #FAFAFA;
+}
+
+.hero h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 55px;
+}
+
+.hero h2 span {
+    color: #39DB4A;
+}
+
+.play {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.desc {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    letter-spacing: 0.175em;
+    color: #FF6868;
+
+}
+
+h3 {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    padding: 0px 0px 30px 0px;
+}
+
+.popular .card {
+    padding: 20px;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 20px;
+}
+
+.popular .card-img {
+    /* padding: 20px; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #C1F1C6;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular img {
+    width: 120px;
+    max-height: 75%;
+    max-width: 75%;
+
+    background-color: transparent;
+    height: fit-content;
+}
+
+
+
+
+
+
+.Standout .card-item img {
+    width: 100%;
+}
+
+.Standout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Standout .slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    /* margin: 0 70px 55px; */
+}
+
+.Standout .card-list .card-item {
+    height: auto;
+    /* width: 33%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 21px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.card-list .card-item::after {
+    content: "\f004";
+    /* Unicode for the heart icon */
+    font-family: "Font Awesome 5 Free";
+    /* Specify the Font Awesome font */
+    font-weight: 400;
+    /* Ensure the regular style is applied */
+    font-size: 24px;
+    background-color: #39DB4A;
+    height: 50px;
+    width: 70px;
+    display: inline-block;
+    /* Ensure it displays as an inline block for proper size */
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: -1px !important;
+    right: -1px;
+    color: #fff;
+    border-radius: 0px 30px 0px 30px;
+}
+
+.Standout .card-list .card-item img {
+    padding: 20px 50px;
+    width: 100%;
+}
+
+.Standout .card-item h5,
+.Standout .card-item div,
+.Standout .card-item p {
+    width: 90%;
+    margin-bottom: 10px !important;
+}
+
+.Standout .swiper-slide-button i {
+    color: #444;
+    /* border: 2px solid #444; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.Standout .swiper-slide-button i:hover {
+    background-color: #39DB4A;
+    color: #fff;
+}
+
+
+
+.Testimonials h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.Testimonials p{
+    font-size: 20px;
+    width: 470px;
+}
+.Testimonials .feedback{
+    position: relative;
+    right: 70px;
+}
+.Testimonials .feedback img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: center  right;
+    border-radius: 50%; 
+    border: 5px solid #ffffff;
+    position: relative;
+}
+.Testimonials .feedback img:nth-child(1){
+    left: 60px;
+}
+
+.Testimonials .feedback img:nth-child(2){
+    left: 30px;
+}
+.Testimonials .feedback p{
+    font-size: 16px;
+    width: 100%;
+}
+.Story .left p{
+    font-size: 20px;
+}
+
+.Story-card{
+    padding: 20px;
+    background-color: #fff !important;
+    border-radius: 20px;
+    height: 100%;
+}
+.Story-card img{
+    height: 65px;
+    width: 65px;
+}
+.Story-card h5{
+    color: #39DB4A;
+    font-size: 20px !important;
+    font-weight: 700;
+}
+.Story-card p{
+   font-size: 18px;
+    color: #90BD95 ;
+
+}
+footer h5{
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: #000;
+}
+footer ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+footer  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    /* font-size: 18px; */
+}
+footer  a:hover{
+    color: #39DB4A;
+}
+footer i{
+    font-size: 24px;
+    margin: 0px 10px;
+    height: 45px;
+    width: 45px;
+    background-color: #fff;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 0.5s;
+}
+footer i:hover{
+    background-color: #39DB4A;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width:992px) and (min-width: 768px) {
+    nav ul li{
+        padding: 0px 10px;
+    }
+    
+
+h3{
+    font-size: 30px !important;
+}
+.Testimonials p{
+    width: auto;
+}
+
+.hero h2 {
+    font-size: 34px;
+    line-height: 44px;
+}
+.Standout .card-list .card-item img {
+    padding: 20px;
+}
+.Story-card{
+    padding: 10px;
+}
+.Story-card p{
+    font-size: 16px;
+}
+.Story-card h5 {
+    font-size: 18px !important;
+}
+}
+@media screen and (max-width:767.9px) {
+
+    .hero h2  {
+        font-size: 34px;
+        text-align: center;
+    }
+    .hero img{
+        max-width: 400px;
+    }
+    h3{
+        font-size: 30px !important;
+        padding: 0px 0px 10px 0px !important;
+    }
+    .Testimonials img{
+        max-width: 400px;
+    }
+    .Testimonials p{
+        width: 100%;
+    }
+    .Testimonials .col-md-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback div{
+        width: 200px;
+    }
+ 
+    .Testimonials .feedback{
+        right: 20px;
+    }
+    .Story-card{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:450px) {
+    .hero h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    .btn-green {
+        padding: 5px 10px ;
+        font-size: 17px;
+    }
+    h3{
+        font-size: 20px !important;
+    }
+    .popular .row .col-6{
+        width: 100%;
+    }
+    .desc{
+        font-size: 16px !important;
+    }
+    .br{
+        display: none !important;
+    }
+    .Testimonials .feedback img {
+        height: 50px;
+        width: 50px;
+    }
+    .feedback div {
+        width: 162px;
+    }   
+    .Testimonials h5{
+        font-size: 16px !important;
+    }
+    .feedback p {
+        font-size: 14px !important;
+    }
+    .Story-card h5{
+        font-size: 13px !important;
+        font-weight: 500;
+    }
+    .Story-card p{
+        font-size: 13px !important;
+    } 
+    footer .logo{
+        text-align: center;
+    }
+}
