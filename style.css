@@ -326,6 +326,41 @@ footer i:hover{
     color: #fff;
 }
 
+.icn-whats {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    border-radius: 50%}
+
+.icn-whats {
+    align-items: center;
+    justify-content: center;
+    background-color: #0d9f16!important;
+    animation: 1.5s infinite shadow-pulse;
+}
+.icn-whats img {
+    width: 36px;
+}
+.icn-fixed {
+    position: fixed;
+    bottom: 110px;
+    right: 10px;
+    z-index: 9999;
+}
+
+@keyframes shadow-pulse {
+    0% {
+    box-shadow: 0 0 0 0 rgba(38, 165, 91, .7);
+}
+100% {
+    box-shadow: 0 0 0 8px rgba(38, 165, 91, 0);
+}
+}
+
+a {
+    text-decoration: none!important;
+}
+
 
 
 @media screen and (max-width:992px) and (min-width: 768px) {
